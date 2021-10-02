@@ -469,4 +469,36 @@ svg {
 	.timeline-title {
 		font-size: 20px;
 	}
+	
+	.caTitle {
+		display: flex;
+		justify-content: center;
+	} 
+
+	.contractAddress {
+		display: flex;
+		justify-content: center;
+	}
+
+	#myInput {
+		width: 200px;
+	}
+}
+
+/*clipboard for CA*/
+.CA {
+	width: 360px;
+	margin-right: 0;
+	background-color: transparent;
+	color: white;
+}
+
+.btn-3 {
+	background-color: RGBA(255,255,255,0.8)
+
+}
+
+.btn-3:focus {
+	outline: none;
+  box-shadow: none;
 }

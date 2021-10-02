@@ -1,3 +1,4 @@
+
 (function () {
   const second = 1000,
         minute = second * 60,
@@ -31,3 +32,20 @@
         //seconds
       }, 0)
   }());
+
+// clipboard for CA
+
+function myFunction() {
+  /* Get the text field */
+  var copyText = document.getElementById("myInput");
+  var contractAddress = document.getElementById("CA")
+
+  /* Select the text field */
+  copyText.select();
+  copyText.setSelectionRange(0, 99999); /* For mobile devices */
+
+   /* Copy the text inside the text field */
+  navigator.clipboard.writeText(copyText.value);
+
+  contractAddress.value = "Copied!"
+}
